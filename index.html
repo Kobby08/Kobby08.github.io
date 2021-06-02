@@ -1,46 +1,66 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frikanda - For Businesses Like Yours!</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./style.css">
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>
-          It's time to grow your business.
-        </h1>
 
-        <h2>
-          Create an e-commerce website for your thriving business.
-        </h2>
-      </header>
+    <!-- Bootstrap CSS file -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
 
-      <section>
-        <p>
-          We are building a platform that makes it easy for you to create <strong>customizable</strong>, <strong>secure</strong>, &amp; <strong>user friendly</strong> website. <br> Sell directly to your customers <strong>without</strong> a middle man taking a commission fee on every sale.
-        </p>
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
 
-        <!-- <p>Sell directly to your customers without a middle man taking a commission fee on every sale.</p> -->
+    <!-- Custom styles-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
 
-        <p>Sign up for updates using the form below!</p>
+<body>
 
+    <div class="container">
+        <div class="announcement"></div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="info-area">
+                    <h1>
+                        It's time to grow your business.
+                    </h1>
+                    <h2>
+                        Create an e-commerce website for your thriving business.
+                    </h2>
+                    <p>
+                        We are building a platform that makes it easy for you to create <strong>customizable</strong>, <strong>secure</strong>, &amp; <strong>user friendly</strong> website. <br> Sell directly to your customers <strong>without</strong>                        a middle man taking a commission fee on every sale.
+                    </p>
+                    <div class="form-area">
+                        <p>Sign up for updates using the form below!</p>
+                        <form action="https://docs.google.com/forms/d/e/1FAIpQLSebUGM1uWtvxdgTg6Ta1gsy27kUAhWVgj3DTscLGPgIc5Nukw/viewform?embedded=true" method="POST" target="_blank">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Enter your email here..">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
 
-        <!-- <form action="">
-          <input type="email" id="email" name="email" placeholder="Enter your email address" required>
-
-          <div class="input-group-append">
-            <button type="submit" id="submit-button" value="Subscribe" name="subscribe" >Notify Me!</button>
-          </div>
-        </form> -->
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSebUGM1uWtvxdgTg6Ta1gsy27kUAhWVgj3DTscLGPgIc5Nukw/viewform?embedded=true">
-          Loading…
-        </iframe>
-      </section>
+                            <button type="submit" class="btn btn-primary">Notify Me</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="image-area">
+                    <img src="img/1.png" alt="banner" class="img-fluid">
+                </div>
+            </div>
+        </div>
     </div>
-  </body>
+    </div>
+
+
+    <!-- JQuery file -->
+    <script src="./js/jquery.3.6.0.js"></script>
+
+    <!-- JS file -->
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
 </html>

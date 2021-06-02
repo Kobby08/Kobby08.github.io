@@ -1,0 +1,50 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #F7E8DC;
+}
+
+.announcement {
+    margin-top: 50px;
+}
+
+.info-area h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #4F3631;
+}
+
+.info-area h2 {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.info-area strong {
+    color: #4F3631;
+}
+
+.form-area p {
+    color: #4F3631;
+}
+
+.btn {
+    background-color: #4F3631;
+    border-color: #4F3631 !important;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #000000;
+}
+
+.btn:focus {
+    background-color: #000000;
+}
+
+.btn:active {
+    background-color: #000000;
+}
+
+.btn-primary:visited {
+    background-color: #000000;
+}
