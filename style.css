@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #F7E8DC;
+}
+
+.wrapper {
+  width:  70%;
+  margin: 0 auto;
+  margin-top: 15rem;
+}
+
+iframe {
+  width: 100%;
+  border: none;
+  height: 500px;
+}
+
+header h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+  color:  #4F3631;
+}
+
+header h2 {
+  font-size: 2rem;
+  line-height: 1.8;
+  margin: 0;
+}
+
+p {
+  font-size: 1.25rem;
+  padding: 0;
+  margin-top: 0.25rem;
+  table-layout: justify;
+}
+
+form {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  flex-basis: 78%;
+  margin-right: 2%;
+}
+
+button {
+  flex-basis: 20%;
+  background-color: #4F3631;
+  border-color: #4F3631 !important;
+  cursor: pointer;
+  color: #fff;
+}
+
+button:active,
+button:focus,
+button:hover {
+  background-color: #281606 !important;
+  border-color: #281606 !important;
+}
+
+input, button {
+  padding: 1rem;
+  font-size: 1.25rem;
+  font-family: inherit;
+  border: 1px solid #4F3631;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+  .wrapper {
+    margin-top: 0.5rem;
+  }
+
+  header h1 {
+    font-weight: 700;
+  }
+
+  form {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 0;
+    margin: 0;
+  }
+
+  input, button {
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-family: inherit;
+    border: 1px solid #4F3631;
+    border-radius: 4px;
+  }
+
+  input, button {
+    display:  block;
+    width: 100%;
+    margin: 0.25rem;
+  }
+}
+
